@@ -1,0 +1,19 @@
+/* 使用系統內建字體 */
+.font1 {
+    font-family: 'Arial', sans-serif;
+}
+
+.font2 {
+    font-family: 'Times New Roman', serif;
+}
+
+.font3 {
+    font-family: 'Courier New', monospace;
+}
+
+/* 使用 Google Fonts 引入外部字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+.font4 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
